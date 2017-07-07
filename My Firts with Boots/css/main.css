@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+
+body {
+
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing:antialiased; /*Сглаживание текста для моб.*/
+	-webkit-overflow-scrolling: touch;  /*Нормальный скролл даже при помощи тача*/
+
+	margin-top: 70px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+
+
+}
+
+p {
+
+	line-height: 28px;
+	margin-bottom: 25px;
+
+}
+
+.centered {
+
+	text-align: center;
+}
+
+
+a {
+
+	color: #f85c37;
+
+}
+
+
+a:hover, a:focus { /*Наведение на ссылку,фокусировка на ссылке */
+
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+
+
+}
+
+
+hr {
+
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+.navbar {
+
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.navbar-inverse {
+
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+
+	background-color: #ff7878;
+
+}
+
+.navbar-inverse .navbar-brand {
+
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 5px;  /*Расстояние между буквами*/
+
+}
+
+
+#headerwrap {
+
+	background: url(../img/header.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative ; /*Как фон прилегает к блоку*/
+	background-position: center center ; /*Указываем область отабражения картинки*/
+	min-height: 600px;
+	width: 100%;
+	background-size: 100%;
+	
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+
+} 
+
+#headerwrap h1 {
+
+	margin-top: 100px;
+	color: white;
+	font-size: 60px;
+	font-weight: 400px;
+	letter-spacing: 3px;
+
+}
+
+
+#headerwrap h2 {
+
+	color: #f2f2f2;
+	font-size: 30px;
+	letter-spacing: 2px:;
+	text-transform: uppercase; /*Что бы все ьыло в вверхнем регистре*/
+} 
+
+
+.w {
+
+	padding-top: 35px;
+
+}
+
+
+#dg {
+
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+
+}
+
+
+#dg h4 {
+
+	font-size: 40px;
+}
+
+
+.titl img {
+
+	height: 105%;
+	width: 105%;
+}
+
+
+.wb {
+
+	padding-top: 35px;
+	margin-bottom: 0;
+
+}
+
+.wb h4 {
+
+	font-size: 30px;
+
+
+}
+
+
+#lg {
+
+	background:#e2e2e2;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+
+#lg img {
+
+	height: 50%;
+	width: 50%;
+
+}
+
+
+#lg h4 {
+
+	font-size: 35px;
+
+}
+
+
+#r {
+
+	background: #ff7878;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+
+#r h4 {
+
+	color: white;
+	font-size: 35px;
+}
+
+#f {
+
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+
+#f i {
+
+	color: #bdbdbd;
+	font-size: 15px;
+	padding: 20px;
+
+
+}
+
+
+#f i:hover {
+
+	color: #ff7878;
+}
+
+
+#brand-image {
+
+	height: 50px;
+}
+
+
+/* FORM>HTML */
+
